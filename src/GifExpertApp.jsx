@@ -4,7 +4,7 @@ import AddCategory from "./Components/AddCategory";
 const GifExpertApp = ()=>{
 
     //Declaramos el state que nos permite contener nuestras categorias
-    const [categories, setcategories] = useState(['Neon Genesis Evengelion','Akira','Naruto']);
+    const [categories, setCategories] = useState(['Neon Genesis Evengelion','Akira','Naruto']);
 
     //Creamos una función que nos permita agregar elementos a nuestro state
     /* const handleAdd = ()=>{
@@ -15,7 +15,7 @@ const GifExpertApp = ()=>{
     return(
     <>
         <h2>GifExpertApp</h2>
-        <AddCategory />
+        <AddCategory setCategories={setCategories} />
         <hr></hr>
         <ol>
             {
