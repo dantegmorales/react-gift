@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import AddCategory from "./Components/AddCategory";
 
 const GifExpertApp = ()=>{
 
@@ -6,16 +7,16 @@ const GifExpertApp = ()=>{
     const [categories, setcategories] = useState(['Neon Genesis Evengelion','Akira','Naruto']);
 
     //Creamos una función que nos permita agregar elementos a nuestro state
-    const handleAdd = ()=>{
+    /* const handleAdd = ()=>{
         //setcategories(['Dragon Ball',...categories]);
         setcategories(cats => [...cats,'Dragon Ball'])
-    }
+    } */
 
     return(
     <>
         <h2>GifExpertApp</h2>
+        <AddCategory />
         <hr></hr>
-        <button onClick={handleAdd}>Agregar</button>
         <ol>
             {
                 categories.map(category=>{
