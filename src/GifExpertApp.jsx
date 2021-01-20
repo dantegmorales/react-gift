@@ -9,8 +9,9 @@ const GifExpertApp = ()=>{
 
     return(
     <>
-        <h2>GifExpertApp</h2>
+        <h1>GifExpertApp</h1>
         <h3>By Dante G Morales</h3>
+        <h4>Using React</h4>
         <AddCategory setCategories={setCategories} />
         <hr></hr>
         <ol>

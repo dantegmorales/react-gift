@@ -23,6 +23,7 @@ const AddCategory = ({setCategories})=>{
     return(
     <form onSubmit={handleSubmit}>
         <input
+        placeholder="Escribe aquí para buscar imagenes"
         type="text"
         value={inputValue}
         onChange={handleChange}
