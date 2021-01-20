@@ -10,6 +10,7 @@ const GifExpertApp = ()=>{
     return(
     <>
         <h2>GifExpertApp</h2>
+        <h3>By Dante G Morales</h3>
         <AddCategory setCategories={setCategories} />
         <hr></hr>
         <ol>
